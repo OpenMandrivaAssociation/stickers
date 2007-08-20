@@ -1,6 +1,6 @@
 %define name stickers
 %define	version 0.1.3
-%define	release 1mdk
+%define	release %mkrel 1
 
 Summary: Stickers game
 Name: %{name}
