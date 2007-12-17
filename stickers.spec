@@ -15,7 +15,6 @@ Source4: stickers32x32.png
 Source5: stickers16x16.png
 Source6: stickers48x48.png
 URL: http://users.powernet.co.uk/kienzle/stickers
-BuildRoot: %{_tmppath}/%{name}-root
 
 %description
 Sticker Book is a program which lets you place images on a background
