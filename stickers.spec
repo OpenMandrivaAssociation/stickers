@@ -8,6 +8,7 @@ Version: %{version}
 Release: %{release}
 License: GPL
 Group: Toys
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source: %name-%version.tar.bz2
 Source1: stickers.desktop
 Source3: stickers.menu
