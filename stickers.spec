@@ -47,11 +47,15 @@ install -m 0644 %{SOURCE5} %{buildroot}%{_datadir}/icons/mini/stickers.png
 install -m 0644 %{SOURCE6} %{buildroot}%{_datadir}/icons/large/stickers.png
 rm -f %{buildroot}%{_datadir}/stickers/scenes/Makefile
 
+%if %mdkversion < 200900
 %post
 %update_menus
+%endif
 
+%if %mdkversion < 200900
 %postun
 %update_menus
+%endif
 
 %clean
 rm -rf $RPM_BUILD_ROOT
