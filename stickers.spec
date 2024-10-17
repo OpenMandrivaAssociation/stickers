@@ -15,7 +15,7 @@ Source3: stickers.menu
 Source4: stickers32x32.png
 Source5: stickers16x16.png
 Source6: stickers48x48.png
-URL: http://users.powernet.co.uk/kienzle/stickers
+URL: https://users.powernet.co.uk/kienzle/stickers
 BuildRequires: gtk-devel gdkimlib-devel
 
 %description
